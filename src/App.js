@@ -34,13 +34,12 @@ function App() {
       })
     );
   }
-  function priortize(id) {
-    let temp = {};
-    const newlist = list.filter((element) => {
-      if (element.id !== id) return element;
-      else {
-        temp = element;
-      }
+  function priortize(element) {
+    let temp = element;
+
+    const newlist = list.filter((element1) => {
+      return element1!==element;
+      
     });
     newlist.unshift(temp);
 
@@ -66,10 +65,10 @@ function App() {
     setList([...newList]);
     console.log("hello");
   }
-  function deleteElement(id) {
+  function deleteElement(element) {
     setList(
-      list.filter((element) => {
-        if (element.id !== id) return element;
+      list.filter((element1) => {
+        return element1!==element;
       })
     );
   }

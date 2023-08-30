@@ -18,7 +18,7 @@ function ShowTask({ list, mark, deleteElement,priortize ,moveup}) {
               onClick={() => {
                 mark(element.id);
               }}
-              onDoubleClick={()=>priortize(element.id)}
+              onDoubleClick={()=>priortize(element)}
               
             >
               
@@ -32,7 +32,7 @@ function ShowTask({ list, mark, deleteElement,priortize ,moveup}) {
             <button className="upButton" onClick={()=>moveup(element,true)}>
               <img className="up" src={downButton} alt="" />
             </button>
-            <button className="del" onClick={() => deleteElement(element.id)}>
+            <button className="del" onClick={() => deleteElement(element)}>
               <img className="App-logo" src={deleteSvg} alt="" />
             </button>
           </div>
