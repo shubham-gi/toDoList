@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  user-select: none;
+}
+.App {
+  text-align: center;
+  height: 150vh;
+  
+  /* background-image: url("%PUBLIC_URL%/beachPhotos.jpg"); */
+  background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+}
+.title {
+  
+  color: rgb(244, 86, 86);
+  font-family: 'Bungee Shade', cursive;
+  font-size:70px;
+  /* font-family: 'Tilt Prism', cursive;
+  font-weight:590; */
+  
+}
+.completed{
+  margin:30px 0px;
+  color: #5e6765;
+  font-family: 'pacifico';
+  font-weight: 100;
+}

@@ -1,0 +1,66 @@
+
+.row{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+.task{
+    user-select: none;
+    font-size: 17px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    width: 30%;
+    padding: 8px ;
+    padding-left: 15px;
+    font-family: 'pacifico',cursive;
+    font-weight: 100;
+    border: solid #7ad4e2 1px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    color: rgb(175, 135, 201);
+    display: flex;
+    justify-content: space-between;
+    
+}
+.task:hover{
+    background-color: #b0dfe6;
+    border: 1px solid #7ad4e2;
+    cursor: pointer;
+    
+}
+.App-logo {
+    height: 3vmin;
+    pointer-events: none;
+  }
+  .del{
+    background-color: transparent;
+    margin-bottom: 10px;
+    padding: 0px 10px;
+    border: rgb(237, 164, 164) solid 1px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    cursor: pointer;
+  }
+  .del:hover{
+    background-color: rgb(236, 205, 205);
+  }
+
+.tick{
+    color:rgb(47, 210, 90);
+}
+.up{
+    height: 3vmin;
+    
+    
+}
+.upButton{
+    background-color: transparent;
+    margin-bottom: 10px;
+    padding: 0px 10px;
+    border: #93daa8 solid 1px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.upButton:hover{
+    background-color: #b8e0c4;
+}
